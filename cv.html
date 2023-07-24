@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--font-awesom-->
+    <script src="https://kit.fontawesome.com/5d2b927f52.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="../components/resume.css"> -->
+    <style>
+        #color {
+            background-color: rgb(51, 51, 77);
+        }
+
+        #image {
+            /* border-radius: 70%; */
+            border: 2px solid white;
+        }
+
+        #form1 {
+            width: 50%;
+            /* margin-left: 250px; */
+
+        }
+
+        .ulList {
+            list-style-type: none;
+        }
+
+        #list3 {
+            list-style-type: none;
+            color: white;
+        }
+
+        #list4 {
+            list-style-type: none;
+            color: white;
+        }
+
+        .workList {
+            list-style-type: none;
+        }
+        label{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="btn btn-outline-danger" id="button2"> click here </button>
+    <div class="container mt-5 bg-dark border border-warning" id="form1">
+        <div class="row">
+            <div class="col-md-12 ">
+                <form>
+                    <div class="form-row ">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Name:</label>
+                                <input type="text" class="form-control" placeholder="Enter name" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label>location:</label>
+                                <input type="text" class="form-control" placeholder="Enter location" id="loc">
+                            </div>
+                            <div class="form-group">
+                                <label>phone:</label>
+                                <input type="number" class="form-control" placeholder="Enter number" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label>Email address:</label>
+                                <input type="text" class="form-control" placeholder="Enter email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label>work exp:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ex1">
+                            </div>
+                            <div class="form-group">
+                                <label>work exp:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ex5">
+                            </div>
+                            <div class="form-group">
+                                <label>work exp:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ex6">
+                            </div>
+
+
+                        </div><!--col4 end-->
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Matric:</label>
+                                <input type="text" class="form-control" placeholder="matric detail" id="matric">
+                            </div>
+                            <div class="form-group">
+                                <label>Inter:</label>
+                                <input type="text" class="form-control" placeholder="inter detail" id="inter">
+                            </div>
+                            <div class="form-group">
+                                <label>batchlor:</label>
+                                <input type="text" class="form-control" placeholder="bachlor detail" id="batchlor">
+                            </div>
+                            <div class="form-group">
+                                <label>profile:</label>
+                                <input type="text" class="form-control" placeholder="profile" id="prof">
+                            </div>
+                            <div class="form-group">
+                                <label>work exp:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ex2">
+                            </div>
+                            <div class="form-group">
+                                <label>work exp:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ex3">
+                            </div>
+                            <div class="form-group">
+                                <label>work exp:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ex4">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Reference:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ref1">
+                            </div>
+                            <div class="form-group">
+                                <label>References:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="ref2">
+                            </div>
+                            <div class="form-group">
+                                <label>skill:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="skil1">
+                            </div>
+                            <div class="form-group">
+                                <label>skills:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="skil2">
+                            </div>
+                            <div class="form-group">
+                                <label>detail:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="wp1">
+                            </div>
+                            <div class="form-group">
+                                <label>detail:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="wp2">
+                            </div>
+                            <div class="form-group">
+                                <label>detail:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="wp3">
+                            </div>
+                        </div>
+                    </div><!--form row end-->
+                    <!-- <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>image:</label>
+                                <input type="text" class="form-control" placeholder="Enter here" id="wp3">
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-outline-success mt-3 mb-5" id="button1"> click here </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-md-4 " id="color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img id="image" src="./images/img_avatar.png" class="mt-5 image-fluid "
+                                style="width:200px;border-radius:50%">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class=" mt-5 text-light">CONTACT</h4>
+                            <hr class="w-25 ml-2" color="white" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa-solid fa-location-dot text-light "></i>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="contact1" class="text-light ml-2 ">asdf</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa-solid fa-phone text-light  mt-2"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="contact2" class="text-light ml-2 ">asdfgh</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa-solid fa-envelope text-light  mt-2"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="contact3" class="text-light ml-2 ">asdfg</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class=" mt-5 text-light">EDUCATION</h4>
+                            <hr class="w-25 ml-2" color="white" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="text-light ">Matric</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="education1" class="text-light ml-5">qwer</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="text-light">Inter</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="education2" class="text-light  ml-5">asdfg</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="text-light  mt-2">Bechlor</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="education3" class="text-light ml-5 mt-2 ">zxcvb</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class=" mt-5 text-light">REFERENCES</h4>
+                            <hr class="w-25 ml-2" color="white" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="ulList2" id="list3">
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="ulList2" id="list4">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row bg-light">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 class=" mt-5 text-center" id="headerName">muteeb</h3>
+                                    <hr class="w-25 mx-auto bg-dark">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="  text-center">CREATIVE DIRECTOR</h5>
+                                </div>
+                            </div><br><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class=" mt-5 " id="profileItem">PROFILE</h4>
+                            <hr class=" ml-2" color="black" width="70px" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-break ml-3 " id="pdetail">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                            ipsa quas sequi, id a saepe et praesentium repudiandae illo
+                            deleniti sit distinctio quibusdam. Dolorem dolorum nesciunt odio
+                            nulla, nostrum eum.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                            ipsa quas sequi, id a saepe et praesentium repudiandae illo
+                            deleniti sit distinctio quibusdam. Dolorem dolorum nesciunt odio
+                            nulla, nostrum eum.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class=" mt-5 ">WORK EXPERIENCE</h4>
+                            <hr class=" ml-2" color="black" width="150px" />
+                        </div>
+                    </div>
+                    <div class="row bg-light">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <ul class="workList" id="wList1">
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+
+                                <ul class="workList" id="wList2">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 " id="workPrf1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Omnis recusandae earum est voluptatem eligendi obcaecati laudantium deleniti dolor
+                            cumque accusantium sapiente
+                            nobis natus laboriosam quos magni, et tenetur alias at.</p>
+                    </div>
+                </div>
+                <div class="row bg-light">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="workList" id="wList3">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="workList" id="wList4">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="workPrf2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Omnis recusandae earum est voluptatem eligendi obcaecati laudantium deleniti dolor
+                            cumque accusantium sapiente
+                            nobis natus laboriosam quos magni, et tenetur alias at.</p>
+                    </div>
+                </div>
+                <div class="row bg-light">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="workList" id="wList5">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="workList" id="wList6">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="workPrf3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Omnis recusandae earum est voluptatem eligendi obcaecati laudantium deleniti dolor
+                            cumque accusantium sapiente
+                            nobis natus laboriosam quos magni, et tenetur alias at.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class=" mt-5 ">SKILLS</h4>
+                        <hr class=" ml-2" color="black" width="50px" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="ulList" id="list1">
+                            <!-- <li>html</li>
+                                <li>css</li> -->
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="ulList" id="list2">
+                            <!-- <li>bootstrap</li>
+                                <li>jquery</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="cv.js"></script>
+    <!-- <script src="jquery-3.6.4.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+
+</html>
